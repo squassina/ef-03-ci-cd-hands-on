@@ -14,7 +14,7 @@ namespace EF3.WebApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "key", "value" };
+            return new string[] { "Key", "Value" };
         }
 
         // GET api/values/5
